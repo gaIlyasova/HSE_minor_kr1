@@ -1,7 +1,7 @@
 function verify() {
-    let x = parseFloat(elementX.value);
-    let y = parseFloat(elementY.value);
-    let z = parseFloat(elementZ.value);
+    let x = parseInt(elementX.value);
+    let y = parseInt(elementY.value);
+    let z = parseInt(elementZ.value);
     console.log(x, y, z);
 
     if (x + y > z && x + z > y && y + z > x) {
